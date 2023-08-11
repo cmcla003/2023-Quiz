@@ -12,7 +12,7 @@ score = 0
 # iterate throguh list to ask questions 
 for question in question_prompt:
     print(question[0])
-    answer = input("Answer: ")
+    answer = input("Answer: ").strip().lower()
   # if user correct add 1 to score 
     if answer == question[1]:
         score += 1
