@@ -27,3 +27,5 @@ while keep_going == "":
         print("Sorry that is incorrect")
 
     print(asked)
+
+print()
